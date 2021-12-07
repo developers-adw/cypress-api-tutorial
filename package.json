@@ -1,0 +1,24 @@
+{
+  "name": "cypress-api-tutorial",
+  "version": "1.0.0",
+  "description": "Cypress tutorial",
+  "main": "index.js",
+  "scripts": {
+    "cypress:open": "./node_modules/.bin/cypress open",
+    "cypress:run": "./node_modules/.bin/cypress run --spec ** / *. spec.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/developers-adw/cypress-api-tutorial.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/developers-adw/cypress-api-tutorial/issues"
+  },
+  "homepage": "https://github.com/developers-adw/cypress-api-tutorial#readme",
+  "devDependencies": {
+    "cypress": "^9.1.1"
+  }
+}
