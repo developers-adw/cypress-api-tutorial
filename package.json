@@ -19,6 +19,7 @@
   },
   "homepage": "https://github.com/developers-adw/cypress-api-tutorial#readme",
   "devDependencies": {
-    "cypress": "^9.1.1"
+    "cypress": "^9.1.1",
+    "faker": "^5.5.3"
   }
 }

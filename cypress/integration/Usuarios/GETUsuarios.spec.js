@@ -5,7 +5,7 @@ describe('Given the Users api', () => {
     it('Then it should return a list with all registered users', () => {
       cy.request({
         method: 'GET',
-        url: 'https://serverest.dev/usuarios',
+        url: '/usuarios',
       }).should((response) => {
         expect(response.status).to.eq(200);
         expect(response.body.quantidade).to.eq(response.body.usuarios.length);
@@ -22,7 +22,7 @@ describe('Given the Users api', () => {
     it('Then it should return only the filtered user', () => {
         cy.request({
             method: 'GET',
-            url: 'https://serverest.dev/usuarios',
+            url: '/usuarios',
             // qs: {
             //     _id: '5v7P0RMKlVjB929k'
             // }
